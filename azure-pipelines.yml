@@ -10,8 +10,8 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  azureSubscription: AzureBasicSub
-  appName: reveal-container
+  azureSubscription: 'AzureBasicSub'
+  appName: 'reveal-container'
   dockerRegistryServiceConnection: 'ea224de6-d2d0-4610-85ad-01ffe02c0945'
   imageRepository: 'markrevealpythonsamplevscodeflasktutorial'
   containerRegistry: 'markscontainerregistry.azurecr.io'
